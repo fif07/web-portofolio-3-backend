@@ -9,7 +9,7 @@ const flash = require('connect-flash');
 
 // import mongoose
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://127.0.0.1:27017/db_pakansi2', {
+mongoose.connect('mongodb://afifsaputra67:kAnankiri07_@ac-jzfeov6-shard-00-00.fcgahhc.mongodb.net:27017,ac-jzfeov6-shard-00-01.fcgahhc.mongodb.net:27017,ac-jzfeov6-shard-00-02.fcgahhc.mongodb.net:27017/db_pakansi?ssl=true&replicaSet=atlas-62ynk5-shard-0&authSource=admin&retryWrites=true&w=majority', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useCreateIndex: true,
