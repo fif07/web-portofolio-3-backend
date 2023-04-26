@@ -78,7 +78,7 @@ module.exports = {
           });
           
         } catch (error) {
-          
+          res.redirect('/admin/dashboard');
         }
 
     },
